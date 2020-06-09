@@ -1,0 +1,44 @@
+@media (max-width: 950px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__icon {
+            max-width: 162px;
+        }
+    }
+    
+}
+
+@media (max-width: 591px) {
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            text-align: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+    }
+    .advantages {
+        &__our {
+            font-size: 24px;
+        }
+        &__header {
+            font-size: 11px;
+        }
+        &__subheader {
+            font-size: 11px;
+        }
+    }
+}

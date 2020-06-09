@@ -27,7 +27,7 @@
         justify-content: space-between;
     }
     &__icon {
-        width: 106px;
+        max-width: 106px;
         text-align: center;
         color: #ffffff;
         font-size: 14px;
@@ -36,6 +36,17 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
+        }
+    }
+    &__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 500;
+        a {
+            margin-top: 18px;
+            color: #ffffff;
+            text-decoration: underline;
+            text-transform: uppercase;
         }
     }
 }
